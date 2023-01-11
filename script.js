@@ -830,15 +830,13 @@ const Body = ()=>{
 
 
 const AppLayout = ()=>{
-   return (
-    <>
-        <HeaderComp/>
-        <Body/>
-    </>
-
-   )
-    
-}
+    return (
+     <>
+         <HeaderComp/>
+         <Body/>
+     </>
+    )
+ }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<AppLayout />);
