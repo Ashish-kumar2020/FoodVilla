@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Montserrat:wght@500&family=Roboto&family=Rubik:wght@400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1440px;
+    height: 75px;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    background-color: rgb(170, 107, 234 );
+}
+
+
+ul{
+    display: inline-flex;
+}
+
+li{
+    margin-right: 55px;
+    font-size: 19px;
+    list-style: none;
+    font-weight: 600;
+    font-family: Fredoka;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+li:hover{
+    /* color: crimson; */
+    text-decoration: underline;
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    -webkit-transform: scale(1.4);
+}
+#search-bar{
+    height: 30px;
+    width: 490px;
+    margin-left: 190px;
+    margin-right: 60px;
+    padding: 19px;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Fredoka;
+    border: 1px solid black;
+}
+
+input:focus {
+    outline: none;
+}
+
+h1{
+    margin-left: 80px;
+   
+    font-size: 33px;
+    font-family: Montserrat;
+    color: black;
+   
+}
+

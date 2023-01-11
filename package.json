@@ -1,0 +1,30 @@
+{
+  "name": "react-practise",
+  "version": "1.0.0",
+  "description": "Creating React App for practise",
+  "scripts": {
+    "start": "npx parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashish-kumar2020/React-Practise.git"
+  },
+  "author": "Ashish Kumar Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashish-kumar2020/React-Practise/issues"
+  },
+  "homepage": "https://github.com/Ashish-kumar2020/React-Practise#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
+  }
+}
